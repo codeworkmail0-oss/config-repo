@@ -5,4 +5,4 @@ spring:
     name: customer-service
   data:
     mongodb:
-      uri: mongodb://grim123:grim123@ecommerce-mongodb:27017/customer_db?authSource=admin
+      uri: mongodb://grim123:grim123@mongodb:27017/customer_db?authSource=admin
