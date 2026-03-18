@@ -18,10 +18,3 @@ spring:
     properties:
       hibernate:
         format_sql: true
-
-  datasource:
-    hikari:
-      maximum-pool-size: 10
-      minimum-idle: 2
-      idle-timeout: 30000
-      max-lifetime: 1800000
