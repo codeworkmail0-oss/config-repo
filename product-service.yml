@@ -22,5 +22,6 @@ spring:
     enabled: true
     baseline-description: "init"
     baseline-version: 0
+    repair-on-migrate: true
 
 
