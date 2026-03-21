@@ -22,7 +22,5 @@ spring:
     enabled: true
     baseline-description: "init"
     baseline-version: 0
-    user: ${spring.datasource.username}
-    password: ${spring.datasource.password}
 
 
