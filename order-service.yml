@@ -4,3 +4,14 @@ server:
 spring:
   application:
     name: order-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/order_db
+    username: grim123
+    password: grim123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update   
+      database: postgresql
+    show-sql: true      
+
