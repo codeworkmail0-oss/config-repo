@@ -20,3 +20,7 @@ grpc:
     product-service:
       address: static://localhost:9002
       negotiationType: plaintext
+    customer-service: 
+      address: static://localhost:9003
+      negotiationType: plaintext
+    
